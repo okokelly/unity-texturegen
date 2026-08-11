@@ -6,21 +6,12 @@ I made this for architectural VR scenes: concrete, plaster, decals, light patter
 
 This is not a Unity package or editor extension. Nothing is installed into your Unity project. The skill gives your coding agent a repeatable texture-generation and QA workflow.
 
-<details>
-<summary>中文简介</summary>
-
-这是一个为 Unity URP 和 Meta Quest 独立端准备的 GPT Image 贴图生成 Skill，主要服务于建筑环境和光效。你可以直接描述想要的无缝墙面、灯光 Cookie、发光遮罩、雾或粒子贴图；Skill 会生成 PNG、检查明显的平铺接缝，并给出一组可用的 Unity 导入设置。
-
-它不是 Unity 插件，也不会自动修改你的项目。
-
-</details>
-
 ## A real example
 
 This was the prompt:
 
 ```text
-给 Quest 独立端 URP 生成一张 1024×1024 的无缝浅灰色清水混凝土外墙贴图，克制、现代、不要明显污渍。
+Generate a seamless 1024×1024 light-gray fair-faced concrete exterior wall texture for standalone Quest and URP. Keep it restrained and modern, without obvious grime.
 ```
 
 | Generated texture | 3×3 tiling check |
